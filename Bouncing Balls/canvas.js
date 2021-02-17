@@ -5,21 +5,6 @@ canvas.height = window.innerHeight;
 
 var c = canvas.getContext('2d');
 
-//Rectangle
-// c.fillStyle = "rgb(0, 255, 0)";
-// c.fillRect(200, 300, 150, 150);
-
-//Line
-// c.beginPath();
-// c.moveTo(20, 20);
-// c.lineTo(20, 300);
-// c.strokeStyle = "rgb(255, 0, 0";
-// c.stroke();
-
-//arc
-//c.beginPath();
-//c.arc(400, 400, 30, 0, Math.PI * 1, true);
-//c.stroke();
 var mouse = {
     x: undefined,
     y: undefined
